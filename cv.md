@@ -33,3 +33,15 @@ function spinWords(string) {
     return newStr.join(' ')
 }
 ``` 
+#### Education
+
+* Courses
+    + [HTML Academy](https://htmlacademy.ru/ "hint!!!")
+    + [freeCodeCamp](www.freecodecamp.org "hint!!!")
+* Training
+    + [Codewars](https://www.codewars.com/ "hint!!!")
+    + [LeetCode.com](https://leetcode.com/ "hint!!!")
+
+#### Languages
++ Russian
++ English - Proficiency: A2 (B1 in process)
