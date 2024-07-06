@@ -128,3 +128,51 @@ table {
     border-collapse: collapse;
     border-spacing: 0;
 }
+
+body {
+    background-color: rgb(199, 12, 12);
+    font-family: sans-serif;
+}
+
+
+
+
+
+.wrapper {}
+
+.header-body {
+    background-color: black;
+    align-items: center;
+    height: 80px;
+    display: flex;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 1165px;
+    padding: 0 15px;
+}
+
+.menu {}
+
+.menu-list {
+    gap: 30px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+
+
+}
+
+
+
+.menu-link {
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+}
+
+.main-row {
+    display: flex;
+}
