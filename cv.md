@@ -17,8 +17,7 @@ Motivated and dedicated Junior Developer with a strong desire for continuous lea
 
 ```
 function spinWords(string) {
-
-    let newStr = string.split(' ')
+let newStr = string.split(' ')
     let spin = ''
     for (let i = 0; i < newStr.length; i++) {
         let words = newStr[i]
