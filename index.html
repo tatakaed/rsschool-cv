@@ -74,21 +74,21 @@
                             <h2 class="title title-codeExample" id="code-example">Code Example</h2>
                             <pre>
                     <code>
-function spinWords(string) &#123;
-    let newStr = string.split(' ');
-    let spin = '';
-    for (let i = 0; i &lt; newStr.length; i++) &#123;
-        let words = newStr[i];
-        if (words.length &gt;= 5) &#123;
-        spin = '';
-            for (let j = words.length - 1; j &gt;= 0; j--) &#123;
-                spin += words[j];
-                &#125;
-            newStr[i] = spin;
-            &#125;
-        &#125;
-        return newStr.join(' ');
-    &#125;
+                        function spinWords(string) &#123;
+                        let newStr = string.split(' ');
+                        let spin = '';
+                        for (let i = 0; i &lt; newStr.length; i++) &#123;
+                            let words = newStr[i];
+                            if (words.length &gt;= 5) &#123;
+                                spin = '';
+                                for (let j = words.length - 1; j &gt;= 0; j--) &#123;
+                                    spin += words[j];
+                                &#125;
+                                newStr[i] = spin;
+                            &#125;
+                        &#125;
+                        return newStr.join(' ');
+                    &#125;
                     </code>
                 </pre>
                         </section>
