@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
     <title>Document</title>
 </head>
+
 <body>
     <div class="wrapper">
         <header class="header-body">
@@ -79,7 +81,7 @@ function spinWords(string) &#123;
         let words = newStr[i];
         if (words.length &gt;= 5) &#123;
         spin = '';
-            for (let j = words.length - 1; j >= 0; j--) &#123;
+            for (let j = words.length - 1; j &gt;= 0; j--) &#123;
                 spin += words[j];
                 &#125;
             newStr[i] = spin;
@@ -144,4 +146,5 @@ function spinWords(string) &#123;
         </footer>
     </div>
 </body>
+
 </html>
