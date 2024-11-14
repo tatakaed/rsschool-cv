@@ -3,9 +3,145 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
     <title>Document</title>
 </head>
 <body>
-    
+    <div class="wrapper">
+        <header class="header-body">
+            <div class="container">
+                <nav class="menu">
+                    <ul class="menu-list">
+                        <li><a class="menu-link" href="#contact-information">Contact Information</a></li>
+                        <li><a class="menu-link" href="#summary">Summary</a></li>
+                        <li><a class="menu-link" href="#skills">Skills</a></li>
+                        <li><a class="menu-link" href="#code-example">Code Example</a></li>
+                        <li><a class="menu-link" href="#education">Education</a></li>
+                        <li><a class="menu-link" href="#languages">Languages</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        <main class="main">
+            <div class="container">
+                <div class="main-row">
+                    <div class="profile-content">
+                        <div class="profile-image">
+                            <img src="css/img/tatakaed.jpg" alt="Lewi-Accerman">
+                        </div>
+                        <h1 class="profile-title">Ivan Gonchar</h1>
+                        <div class="profile-subtitle">
+                            Front-End developer
+                        </div>
+                    </div>
+                    <div class="resume-content">
+                        <section class="resume-contact">
+                            <h2 class="resume-title title" id="contact-information">Contact Information</h2>
+                            <ul class="resume-list">
+                                <li>Phone: +7 (913) 456-78-90</li>
+                                <li>
+                                    <p>Email: <a href="mailto:tatakaekakatae@gmail.com">tatakaekakatae@gmail.com</a></p>
+                                </li>
+                                <li><a href="https://github.com/tatakaed" class="resume-link">Github</a></li>
+                                <li> Discord: tatakaedd</li>
+                            </ul>
+                        </section>
+                        <section class="resume-summary">
+                            <h2 class="summary-title title" id="summary">Summary</h2>
+                            <div class="summary-text">
+                                <p> Motivated and dedicated Junior Developer with a strong desire for continuous
+                                    learning
+                                    and
+                                    professional growth. Possess fundamental knowledge in programming and software
+                                    development,
+                                    eager to enhance skills in a dynamic and innovative environment. Strong
+                                    problem-solving
+                                    abilities and teamwork skills.</p>
+                            </div>
+                        </section>
+                        <section class="resume-skills">
+                            <h2 class="skills-title title" id="skills">Skills</h2>
+                            <ul class="skills-list">
+                                <li>HTML</li>
+                                <li>CSS</li>
+                                <li>JavaScript (Basic)</li>
+                                <li>Git</li>
+                            </ul>
+                        </section>
+                        <section class="resume-codeExample">
+                            <h2 class="title title-codeExample" id="code-example">Code Example</h2>
+                            <pre>
+                    <code>
+function spinWords(string) &#123;
+    let newStr = string.split(' ');
+    let spin = '';
+    for (let i = 0; i &lt; newStr.length; i++) &#123;
+        let words = newStr[i];
+        if (words.length &gt;= 5) &#123;
+        spin = '';
+            for (let j = words.length - 1; j >= 0; j--) &#123;
+                spin += words[j];
+                &#125;
+            newStr[i] = spin;
+            &#125;
+        &#125;
+        return newStr.join(' ');
+    &#125;
+                    </code>
+                </pre>
+                        </section>
+                        <section class="resume-education">
+                            <h2 class="title title-education" id="education">Education</h2>
+                            <ul class="education-list">
+                                <li>
+                                    Courses
+                                    <ul class="education-list">
+                                        <li>
+                                            <a href="https://htmlacademy.ru/">HTML Academy</a>
+                                        </li>
+                                        <li>
+                                            <a href="https://www.freecodecamp.org/">freeCodeCamp</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    Training
+                                    <ul>
+                                        <li><a href="https://www.codewars.com/">Codewars</a></li>
+                                        <li><a href="https://leetcode.com/">LeetCode.com</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </section>
+                        <section class="resume-languages">
+                            <h2 class="title title-languages" id="languages">
+                                Languages
+                            </h2>
+                            <ul class="Languages-list">
+                                <li>Russian</li>
+                                <li>English - Proficiency: A2 (B1 in process)</li>
+                            </ul>
+                        </section>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <footer class="footer">
+            <div class="container">
+                <div class="row-footer">
+                    <div class="footer-link">
+                        <a href="https://github.com/tatakaed"><img src="css/img/github-logo.svg" alt="git-img"></a>
+                    </div>
+                    <div class="footer-year">
+                        2024
+                    </div>
+                    <div class="footer-logo">
+                        <a href="https://rs.school/"> <img src="css/img/rs_school_logo.svg" height="40" width="60"
+                                alt="rs-school=logo"></a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
 </body>
 </html>
